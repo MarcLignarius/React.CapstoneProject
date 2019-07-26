@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { Route, HashRouter } from 'react-router-dom';
 import './app.css';
 import Header from '../header/header';
-import Show from '../show/show';
+import ShowList from '../showList/showList';
 import shows from './../../data/data.js';
 
 export default class App extends Component {
@@ -39,10 +40,10 @@ export default class App extends Component {
   }
   render() {
       return (
-        <div>
-          <Header />
-          <Show />
-        </div>
+        <HashRouter>
+          <Header/>
+          <Route exact path='/' render={()=><ShowList showList={this.state.shows} />} />
+        </HashRouter>
       )
     }
   }
