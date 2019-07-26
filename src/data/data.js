@@ -145,3 +145,5 @@ export const shows = [
     hypeScore: 15,
   }
 ]
+
+export default shows;
