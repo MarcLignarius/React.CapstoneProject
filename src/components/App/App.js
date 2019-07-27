@@ -3,6 +3,8 @@ import { Route, HashRouter } from 'react-router-dom';
 import './app.css';
 import Header from '../header/header';
 import ShowList from '../showList/showList';
+import BandList from '../bandList/bandList';
+import VenueList from '../venueList/venueList';
 import shows from './../../data/data.js';
 
 export default class App extends Component {
@@ -43,6 +45,8 @@ export default class App extends Component {
         <HashRouter>
           <Header/>
           <Route exact path='/' render={()=><ShowList showList={this.state.shows} />} />
+          <Route exact path='/bands' render={()=><BandList bandList={this.state.shows} />} />
+          <Route exact path='/venues' render={()=><VenueList venueList={this.state.shows} />} />
         </HashRouter>
       )
     }

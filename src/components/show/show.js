@@ -24,22 +24,13 @@ Show.propTypes = {
   flyer: PropTypes.string.isRequired,
   genre: PropTypes.string.isRequired,
   headlinerName: PropTypes.string.isRequired,
-  headlinerPhoto: PropTypes.string.isRequired,
-  headlinerInfo: PropTypes.string.isRequired,
   supportName: PropTypes.string.isRequired,
-  supportPhoto: PropTypes.string.isRequired,
-  supportInfo: PropTypes.string.isRequired,
   venueName: PropTypes.string.isRequired,
-  venueAddress: PropTypes.string.isRequired,
-  venueDescription: PropTypes.string.isRequired,
-  venuePhone: PropTypes.string.isRequired,
-  venueEmail: PropTypes.string.isRequired,
-  venueWebsite: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   time: PropTypes.number.isRequired,
   price: PropTypes.number.isRequired,
   ageLimit: PropTypes.string.isRequired,
-  hypeScore: PropTypes.number.isRequired,
+  hypeScore: PropTypes.number.isRequired
 };
 
 export default Show;

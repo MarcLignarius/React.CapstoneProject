@@ -4,18 +4,21 @@ import ironmaidenflyer from '../assets/flyers/ironmaidenflyer.jpg';
 import mastodonflyer from '../assets/flyers/mastodonflyer.jpg';
 import misfitsflyer from '../assets/flyers/misfitsflyer.jpg';
 import slayerflyer from '../assets/flyers/slayerflyer.jpg';
-import afi from '../assets/bandphotos/afi.jpg';
-import agnosticfront from '../assets/bandphotos/agnosticfront.jpg';
-import bloodceremony from '../assets/bandphotos/bloodceremony.jpg';
-import ghost from '../assets/bandphotos/ghost.jpg';
-import gorod from '../assets/bandphotos/gorod.jpg';
-import ironmaiden from '../assets/bandphotos/ironmaiden.jpg';
-import madball from '../assets/bandphotos/madball.jpg';
-import mastodon from '../assets/bandphotos/mastodon.jpg';
-import misfits from '../assets/bandphotos/misfits.jpg';
-import sabaton from '../assets/bandphotos/sabaton.jpg';
-import slayer from '../assets/bandphotos/slayer.jpg';
-import toxicholocaust from '../assets/bandphotos/toxicholocaust.jpg';
+import afi from '../assets/bands/afi.jpg';
+import agnosticfront from '../assets/bands/agnosticfront.jpg';
+import bloodceremony from '../assets/bands/bloodceremony.jpg';
+import ghost from '../assets/bands/ghost.jpg';
+import gorod from '../assets/bands/gorod.jpg';
+import ironmaiden from '../assets/bands/ironmaiden.jpg';
+import madball from '../assets/bands/madball.jpg';
+import mastodon from '../assets/bands/mastodon.jpg';
+import misfits from '../assets/bands/misfits.jpg';
+import sabaton from '../assets/bands/sabaton.jpg';
+import slayer from '../assets/bands/slayer.jpg';
+import toxicholocaust from '../assets/bands/toxicholocaust.jpg';
+import hawthornetheater from '../assets/venues/hawthornetheater.jpg';
+import modacenter from '../assets/venues/modacenter.jpg';
+import roselandtheater from '../assets/venues/roselandtheater.jpg';
 
 export const shows = [
   {
@@ -28,6 +31,7 @@ export const shows = [
     supportPhoto: madball,
     supportInfo: 'Madball is a New York hardcore band that originated in the late 1980s as a side project of Agnostic Front. The band developed after Agnostic Front\'s front man Roger Miret would let his younger half-brother Freddy Cricien take the microphone and perform lead vocals during Agnostic Front shows.',
     venueName: 'Hawthorne Theater',
+    venuePhoto: hawthornetheater,
     venueAddress: '1507 SE 39th Ave, Portland, OR 97214',
     venueDescription: 'The Hawthorne Theatre, formerly known as the Sunnyside Masonic Lodge, is an historic building and music venue located at the intersection of Southeast Hawthorne Boulevard and Cesar Chavez Boulevard.',
     venuePhone: '(503) 233-7100',
@@ -49,6 +53,7 @@ export const shows = [
     supportPhoto: bloodceremony,
     supportInfo: 'Blood Ceremony is a Canadian rock band formed in 2006 in Toronto, Ontario. Blood Ceremony\'s style has been described as flute-tinged witch rock and their lyrics are filled with black magic imagery and references to classic horror films.',
     venueName: 'Hawthorne Theater',
+    venuePhoto: hawthornetheater,
     venueAddress: '1507 SE 39th Ave, Portland, OR 97214',
     venueDescription: 'The Hawthorne Theatre, formerly known as the Sunnyside Masonic Lodge, is an historic building and music venue located at the intersection of Southeast Hawthorne Boulevard and Cesar Chavez Boulevard.',
     venuePhone: '(503) 233-7100',
@@ -70,6 +75,7 @@ export const shows = [
     supportPhoto: sabaton,
     supportInfo: 'Sabaton is a Swedish power metal band from Falun. The band\'s main lyrical themes are based on war, historical battles, and acts of heroism. The name is a reference to a sabaton, knight\'s foot armor.',
     venueName: 'Moda Center',
+    venuePhoto: modacenter,
     venueAddress: '1 N Center Ct St, Portland, OR 97227',
     venueDescription: 'Moda Center, formerly known as the Rose Garden, is the primary indoor sports arena in Portland, Oregon, United States. It is used for basketball, ice hockey, rodeos, circuses, conventions, ice shows, concerts, and dramatic productions. The arena has a capacity of 19,393 spectators when configured for basketball.',
     venuePhone: '(503) 235-8771',
@@ -91,6 +97,7 @@ export const shows = [
     supportPhoto: gorod,
     supportInfo: 'Gorod is a technical death metal band from Bordeaux, France.',
     venueName: 'Roseland Theater',
+    venuePhoto: roselandtheater,
     venueAddress: '8 NW 6th Ave, Portland, OR 97209',
     venueDescription: 'The Roseland Theater, sometimes called the Roseland Theater and Grill, is a music venue located at 8 Northwest Sixth Avenue in the Old Town Chinatown neighborhood of Portland',
     venuePhone: '(971) 230-0033',
@@ -112,6 +119,7 @@ export const shows = [
     supportPhoto: afi,
     supportInfo: 'AFI is an American rock band from Ukiah, California, formed in 1991. The band\'s lineup stabilized in 1998 with lead vocalist Davey Havok, drummer and backing vocalist Adam Carson, bassist, backing vocalist and keyboardist Hunter Burgan, and guitarist, backing vocalist and keyboardist Jade Puget.',
     venueName: 'Moda Center',
+    venuePhoto: modacenter,
     venueAddress: '1 N Center Ct St, Portland, OR 97227',
     venueDescription: 'Moda Center, formerly known as the Rose Garden, is the primary indoor sports arena in Portland, Oregon, United States. It is used for basketball, ice hockey, rodeos, circuses, conventions, ice shows, concerts, and dramatic productions. The arena has a capacity of 19,393 spectators when configured for basketball.',
     venuePhone: '(503) 235-8771',
@@ -133,6 +141,7 @@ export const shows = [
     supportPhoto: toxicholocaust,
     supportInfo: 'Toxic Holocaust is an American thrash metal band from Portland, Oregon.',
     venueName: 'Roseland Theater',
+    venuePhoto: roselandtheater,
     venueAddress: '8 NW 6th Ave, Portland, OR 97209',
     venueDescription: 'The Roseland Theater, sometimes called the Roseland Theater and Grill, is a music venue located at 8 Northwest Sixth Avenue in the Old Town Chinatown neighborhood of Portland',
     venuePhone: '(971) 230-0033',

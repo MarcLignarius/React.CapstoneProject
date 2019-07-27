@@ -11,6 +11,7 @@ function ShowList(props){
         {props.showList.map((show) =>
           <Show
             flyer={show.flyer}
+            genre={show.genre}
             headlinerName={show.headlinerName}
             supportName={show.supportName}
             venueName={show.venueName}
