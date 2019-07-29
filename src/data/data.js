@@ -19,6 +19,9 @@ import toxicholocaust from '../assets/bands/toxicholocaust.jpg';
 import hawthornetheater from '../assets/venues/hawthornetheater.jpg';
 import modacenter from '../assets/venues/modacenter.jpg';
 import roselandtheater from '../assets/venues/roselandtheater.jpg';
+import bossanovaballroom from '../assets/venues/bossanovaballroom.jpg';
+import crystalballroom from '../assets/venues/crystalballroom.jpg';
+import mississipistudios from '../assets/venues/mississipistudios.jpg';
 
 export const shows = [
   {
@@ -52,13 +55,13 @@ export const shows = [
     supportName: 'Blood Ceremony',
     supportPhoto: bloodceremony,
     supportInfo: 'Blood Ceremony is a Canadian rock band formed in 2006 in Toronto, Ontario. Blood Ceremony\'s style has been described as flute-tinged witch rock and their lyrics are filled with black magic imagery and references to classic horror films.',
-    venueName: 'Hawthorne Theater',
-    venuePhoto: hawthornetheater,
-    venueAddress: '1507 SE 39th Ave, Portland, OR 97214',
-    venueDescription: 'The Hawthorne Theatre, formerly known as the Sunnyside Masonic Lodge, is an historic building and music venue located at the intersection of Southeast Hawthorne Boulevard and Cesar Chavez Boulevard.',
-    venuePhone: '(503) 233-7100',
-    venueEmail: 'hawthornetheatrebooking@gmail.com',
-    venueWebsite: 'http://hawthornetheatre.com/',
+    venueName: 'Crystal Ballroom',
+    venuePhoto: crystalballroom,
+    venueAddress: '1332 W Burnside St, Portland, OR 97209',
+    venueDescription: 'Crystal Ballroom, originally built as Cotillion Hall, is a historic building in Portland, Oregon, United States. Cotillion Hall was built in 1914 as a ballroom, and dance revivals were held there through the Great Depression. Starting in the 1960s, the hall has also been host to many popular pop, rock, folk, blues and jazz artists, as well as beat poetry and other entertainment.',
+    venuePhone: '(503) 225-0047',
+    venueEmail: 'crystalballroombooking@gmail.com',
+    venueWebsite: 'https://www.crystalballroompdx.com/',
     date: '10/08/2019',
     time: 8,
     price: 25,
@@ -118,13 +121,13 @@ export const shows = [
     supportName: 'AFI',
     supportPhoto: afi,
     supportInfo: 'AFI is an American rock band from Ukiah, California, formed in 1991. The band\'s lineup stabilized in 1998 with lead vocalist Davey Havok, drummer and backing vocalist Adam Carson, bassist, backing vocalist and keyboardist Hunter Burgan, and guitarist, backing vocalist and keyboardist Jade Puget.',
-    venueName: 'Moda Center',
-    venuePhoto: modacenter,
-    venueAddress: '1 N Center Ct St, Portland, OR 97227',
-    venueDescription: 'Moda Center, formerly known as the Rose Garden, is the primary indoor sports arena in Portland, Oregon, United States. It is used for basketball, ice hockey, rodeos, circuses, conventions, ice shows, concerts, and dramatic productions. The arena has a capacity of 19,393 spectators when configured for basketball.',
-    venuePhone: '(503) 235-8771',
-    venueEmail: 'modacenterbooking@gmail.com',
-    venueWebsite: 'rosequarter.com/seating-charts/moda-center',
+    venueName: 'Mississipi Studios',
+    venuePhoto: mississipistudios,
+    venueAddress: '3939 N Mississippi Ave, Portland, OR 97227',
+    venueDescription: 'Mississippi Studios is a music venue and recording studio in Portland, Oregon\'s Boise neighborhood, United States. The venue was formerly a Baptist church, but has since been completely rebuilt and enlarged, partially using materials from the church.',
+    venuePhone: '(503) 288-3895',
+    venueEmail: 'mississippistudiosbooking@gmail.com',
+    venueWebsite: 'mississippistudios.com',
     date: '04/25/2020',
     time: 8,
     price: 35,
@@ -140,13 +143,13 @@ export const shows = [
     supportName: 'Toxic Holocaust',
     supportPhoto: toxicholocaust,
     supportInfo: 'Toxic Holocaust is an American thrash metal band from Portland, Oregon.',
-    venueName: 'Roseland Theater',
-    venuePhoto: roselandtheater,
-    venueAddress: '8 NW 6th Ave, Portland, OR 97209',
-    venueDescription: 'The Roseland Theater, sometimes called the Roseland Theater and Grill, is a music venue located at 8 Northwest Sixth Avenue in the Old Town Chinatown neighborhood of Portland',
-    venuePhone: '(971) 230-0033',
-    venueEmail: 'roselandbooking@gmail.com',
-    venueWebsite: 'http://roselandpdx.com/',
+    venueName: 'Bossanova Ballroom',
+    venuePhoto: bossanovaballroom,
+    venueAddress: '722 E Burnside St, Portland, OR 97214',
+    venueDescription: 'Bossanova Ballroom is an event space and former theater building located at 722 East Burnside Street in Portland, Oregon\'s Buckman neighborhood, in the United States. It features a dance floor, two stages and bars, and a game room. The venue has hosted comedy shows, and the queer event Blow Pony since 2016.',
+    venuePhone: '(503) 206-7630',
+    venueEmail: 'bossanovaballroombooking@gmail.com',
+    venueWebsite: 'http://bossanovaballroom.com/',
     date: '05/07/2020',
     time: 8,
     price: 25,
@@ -156,3 +159,4 @@ export const shows = [
 ]
 
 export default shows;
+
