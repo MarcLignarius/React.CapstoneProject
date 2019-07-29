@@ -5,7 +5,7 @@ import Header from '../header/header';
 import ShowList from '../showList/showList';
 import BandList from '../bandList/bandList';
 import VenueList from '../venueList/venueList';
-import shows from './../../data/data.js';
+import shows from '../../data/data.js';
 
 export default class App extends Component {
   state={
