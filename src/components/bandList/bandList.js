@@ -13,7 +13,7 @@ function BandList(props){
             name={band.name}
             photo={band.photo}
             info={band.info}
-            key={band.id}
+            key={band.uid}
           />
         )}
       </div>

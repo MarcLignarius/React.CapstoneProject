@@ -17,7 +17,7 @@ function VenueList(props){
             phone={venue.phone}
             email={venue.email}
             website={venue.website}
-            key={venue.id}
+            key={venue.uid}
           />
         )}
       </div>

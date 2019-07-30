@@ -20,7 +20,7 @@ function ShowList(props){
             price={show.price}
             ageLimit={show.ageLimit}
             hypeScore={show.hypeScore}
-            key={show.id}
+            key={show.uid}
           />
         )}
       </div>
