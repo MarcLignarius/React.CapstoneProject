@@ -8,15 +8,12 @@ function BandList(props){
     <div>
       <h1>Bands</h1>
       <div>
-        {props.bandList.map((show) =>
+        {props.bandList.map((band) =>
           <Band
-            headlinerName={show.headlinerName}
-            headlinerPhoto={show.headlinerPhoto}
-            headlinerInfo={show.headlinerInfo}
-            supportName={show.supportName}
-            supportPhoto={show.supportPhoto}
-            supportInfo={show.supportInfo}
-            key={show.id}
+            name={band.name}
+            photo={band.photo}
+            info={band.info}
+            key={band.id}
           />
         )}
       </div>

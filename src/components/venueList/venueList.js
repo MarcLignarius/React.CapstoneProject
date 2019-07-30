@@ -8,16 +8,16 @@ function VenueList(props){
     <div>
       <h1>Venues</h1>
       <div>
-        {props.venueList.map((show) =>
+        {props.venueList.map((venue) =>
           <Venue
-            venueName={show.venueName}
-            venuePhoto={show.venuePhoto}
-            venueAddress={show.venueAddress}
-            venueDescription={show.venueDescription}
-            venuePhone={show.venuePhone}
-            venueEmail={show.venueEmail}
-            venueWebsite={show.venueWebsite}
-            key={show.id}
+            name={venue.name}
+            photo={venue.photo}
+            address={venue.address}
+            info={venue.info}
+            phone={venue.phone}
+            email={venue.email}
+            website={venue.website}
+            key={venue.id}
           />
         )}
       </div>

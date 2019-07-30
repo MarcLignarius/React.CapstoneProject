@@ -5,11 +5,13 @@ import Header from '../header/header';
 import ShowList from '../showList/showList';
 import BandList from '../bandList/bandList';
 import VenueList from '../venueList/venueList';
-import shows from '../../data/data.js';
+import { shows, bands, venues } from '../../data/data.js';
 
 export default class App extends Component {
   state={
     shows,
+    bands,
+    venues
   }
 
   getShows(){
@@ -44,9 +46,16 @@ export default class App extends Component {
       return (
         <HashRouter>
           <Header/>
-          <Route exact path='/' render={()=><ShowList showList={this.state.shows} />} />
-          <Route exact path='/bands' render={()=><BandList bandList={this.state.shows} />} />
-          <Route exact path='/venues' render={()=><VenueList venueList={this.state.shows} />} />
+          <Route exact path='/' render={()=><ShowList 
+            showList={this.state.shows}
+            handleAddShow={this.state.handleAddShow}
+            handleEditShow={this.state.handleEditShow}
+            handleDeleteShow={this.state.handleDeleteShow}
+            handleAddHype={this.state.handleAddHype}
+            />} 
+          />
+          <Route exact path='/bands' render={()=><BandList bandList={this.state.bands} />} />
+          <Route exact path='/venues' render={()=><VenueList venueList={this.state.venues} />} />
         </HashRouter>
       )
     }
