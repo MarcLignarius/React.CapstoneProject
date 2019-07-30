@@ -8,15 +8,18 @@ import VenueList from '../venueList/venueList';
 import { shows, bands, venues } from '../../data/data.js';
 
 export default class App extends Component {
-  state = {
-    shows,
-    bands,
-    venues
+  constructor(props) {
+    super(props);
+    this.state = {
+      shows,
+      bands,
+      venues
+    }
   }
 
-  getShows() {
-    return this.state.shows;
-  }
+  getShows() { return this.state.shows; }
+  getBands() { return this.state.bands; }
+  getVenues() { return this.state.venues; }
 
   getShowIndex = (uid) => this.state.shows.findIndex((show) => show.uid === uid)
   getBandIndex = (uid) => this.state.bands.findIndex((band) => band.uid === uid)
